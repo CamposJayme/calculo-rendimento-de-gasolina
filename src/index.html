@@ -26,18 +26,26 @@
         </div>
 
         <div class="box-gas-quantity">
-            <h3>Digite a quantidade de gasolina em litros:</h3>
-            <input type="number">
+            <h3>Digite o valor do combustível:</h3>
+            <input type="number" placeholder="R$ / Litro">
         </div>
 
         <div class="box-km">
-            <h3>Km rodados pelo seu veículo:</h3>
-            <input type="number">
+            <h3>Informe o rendimento do seu veículo:</h3>
+            <input type="number" placeholder="Km / Litro">
+        </div>
+
+        <div class="distance">
+            <h3>Km a percorrer:</h3>
+            <input type="number" placeholder="Km total">
         </div>
 
         <div class="final-result">
-            <h2>O rendimento total da sua gasolina foi de:</h2>
+            <h2>Valor a pagar (R$):</h2>
             <p>-Resultado-</p>
+            <!-- Cálculo -->
+            <!-- 1. (Distância a percorrer) / (Km / Litro) = Total de litros necessário -->
+            <!-- 2. (Total de litros necessário) * Valor do combústivel (R$ / Litro) = Valor total gasto -->
         </div>
     </main>
 </body>
