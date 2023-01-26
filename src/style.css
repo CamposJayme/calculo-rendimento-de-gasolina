@@ -24,7 +24,7 @@ header > h1 {
 .container {
     background-color: orangered;
     width: 600px;
-    height: 490px;
+    height: 550px;
     margin: 90px auto;
     padding: 12px;
     border-radius: 10px;
@@ -42,7 +42,7 @@ header > h1 {
     margin: 15px 0 0 0;
 }
 
-.box-name, .box-gas-quantity, .box-km {
+.box-name, .box-gas-quantity, .box-km, .distance {
     padding: 20px;
     margin: 5px 0 0 0;
 }
