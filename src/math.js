@@ -1,0 +1,1 @@
+window.confirm('Você acessou a página do Calcula aí! Deseja prosseguir?')
