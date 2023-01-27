@@ -62,6 +62,10 @@ input:hover {
     background-color: rgb(225, 139, 153);
 }
 
+#res input {
+    width: 100px;
+}
+
 .final-result {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
