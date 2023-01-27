@@ -71,3 +71,14 @@ input:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px 0 0 0;
 }
+
+@media (min-width: 300px) and (max-width: 768px) {
+    header {
+        width: 96%;
+    }
+
+    .container {
+        width: 90%;    
+        height: 90%;
+    }
+}
