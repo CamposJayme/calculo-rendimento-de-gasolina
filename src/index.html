@@ -27,22 +27,22 @@
 
         <div class="box-gas-quantity">
             <h3>Digite o valor do combustível:</h3>
-            <input type="number" placeholder="R$ / Litro">
+            <input id="valor-litro" type="number" placeholder="R$ / Litro">
         </div>
 
         <div class="box-km">
             <h3>Informe o rendimento do seu veículo:</h3>
-            <input type="number" placeholder="Km / Litro">
+            <input id="km-litro" type="number" placeholder="Km / Litro">
         </div>
 
         <div class="distance">
             <h3>Km a percorrer:</h3>
-            <input type="number" placeholder="Km total">
+            <input id="km" type="number" placeholder="Km total">
         </div>
 
         <div class="final-result">
             <h2>Valor a pagar (R$):</h2>
-            <p>-Resultado-</p>
+            <p id="res"><input type="button" value="Calcular" onclick="calcular()"></input></p>
             <!-- Cálculo -->
             <!-- 1. (Distância a percorrer) / (Km / Litro) = Total de litros necessário -->
             <!-- 2. (Total de litros necessário) * Valor do combústivel (R$ / Litro) = Valor total gasto -->
