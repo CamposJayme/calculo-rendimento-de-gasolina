@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem vindo ao Calcula Certo</h1>
+    </header>
+
+    <main class="container">
+        <div class="container-title">
+            <h1>Cálculo de rendimento de gasolina</h1>
+        </div>
+        <div class="container-info">
+            <p>Por favor, preencha as informações conforme solicitado nos campos a seguir</p>
+        </div>
+
+        <div class="box-name">
+            <h3>Informe seu nome:</h3>
+            <input type="text">
+        </div>
+
+        <div class="box-gas-quantity">
+            <h3>Digite o valor do combustível:</h3>
+            <input id="valor-litro" type="number" placeholder="R$ / Litro">
+        </div>
+
+        <div class="box-km">
+            <h3>Informe o rendimento do seu veículo:</h3>
+            <input id="km-litro" type="number" placeholder="Km / Litro">
+        </div>
+
+        <div class="distance">
+            <h3>Km a percorrer:</h3>
+            <input id="km" type="number" placeholder="Km total">
+        </div>
+
+        <h2>Valor a pagar (R$):</h2>
+        <div class="buttons">
+            <div class="final-result">
+                <p id="res"><input type="button" value="Calcular" onclick="calcular()"></input></p>
+                <p id="refresh"><input type="button" value="Limpar dados"></input></p>
+            </div>
+        </div>
+    </main>
+    <script src="math.js"></script>
+</body>
+</html>
