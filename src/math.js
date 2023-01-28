@@ -12,3 +12,10 @@ function calcular() {
      2. (Total de litros necessário) * Valor do combústivel (R$ / Litro) = Valor total gasto */
     res.innerHTML = `O valor necessário a ser gasto com combustível é de ${calculo_final}.`
 }
+
+//Recarregar a página
+const btn = document.querySelector("#refresh")
+
+btn.addEventListener("click", () => {
+    location.reload()
+})
