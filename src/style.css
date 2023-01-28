@@ -74,7 +74,7 @@ input:hover {
 
 @media (min-width: 300px) and (max-width: 768px) {
     header {
-        width: 96%;
+        width: 96.5%;
     }
 
     .container {
