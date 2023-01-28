@@ -40,9 +40,12 @@
             <input id="km" type="number" placeholder="Km total">
         </div>
 
-        <div class="final-result">
-            <h2>Valor a pagar (R$):</h2>
-            <p id="res"><input type="button" value="Calcular" onclick="calcular()"></input></p>                                 
+        <h2>Valor a pagar (R$):</h2>
+        <div class="buttons">
+            <div class="final-result">
+                <p id="res"><input type="button" value="Calcular" onclick="calcular()"></input></p>
+                <p><button id="refresh">Limpar dados</button></p>
+            </div>
         </div>
     </main>
     <script src="math.js"></script>
