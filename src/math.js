@@ -10,7 +10,7 @@ function calcular() {
     /* Cálculo:
      1. (Distância a percorrer) / (Km / Litro) = Total de litros necessário 
      2. (Total de litros necessário) * Valor do combústivel (R$ / Litro) = Valor total gasto */
-    res.innerHTML = `O valor necessário a ser gasto com combustível é de R$${calculo_final.toFixed(2)}.`
+    res.innerHTML = `O valor necessário a ser gasto com combustível é de R$ ${calculo_final.toFixed(2)}.`
 }
 
 //Recarregar a página
