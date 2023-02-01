@@ -7,10 +7,11 @@ function calcular() {
     var res2 = Number(km_litro.value)
     var res3 = Number(distancia.value)
     var calculo_final = (res3 / res2) * res1
+    calculo_final = calculo_final.toFixed(2)
     /* Cálculo:
      1. (Distância a percorrer) / (Km / Litro) = Total de litros necessário 
      2. (Total de litros necessário) * Valor do combústivel (R$ / Litro) = Valor total gasto */
-    res.innerHTML = `O valor necessário a ser gasto com combustível é de R$ ${calculo_final.toFixed(2)}.`
+    res.innerHTML = `O valor necessário a ser gasto com combustível é de R$ ${calculo_final}.`
 }
 
 //Recarregar a página
